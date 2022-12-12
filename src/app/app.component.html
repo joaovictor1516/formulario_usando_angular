@@ -1,24 +1,18 @@
 <form action="">
   <fieldset>
     <legend>Informações do usuário</legend>
-    <label for="nome">
-      <p><span>Nome</span>:</p>
+    <label for="nome"><p><span>Nome</span>:</p></label>    
       <input type="text" name="nome" id="nome">
-    </label>
-
-    <label for="idade">
-      <p><span>Idade</span>:</p>
+    
+    <label for="idade"><p><span>Idade</span>:</p></label> 
       <input type="number" name="idade" id="idade">
-    </label>
+    
+    <label for="liguagens"><p><span>Quais linguagens você programa</span>:</label>      
+      <textarea name="linguagens" id="linguagens" value="JavaScript, Python, c++"></textarea>
 
-    <label for="liguagens">
-      <p><span>Quais linguagens você programa</span>:</p>
-      <textarea name="linguagens" id="linguagens" placeholder="Quais linguagens você gosta?"></textarea>
-    </label>
-
-    <label for="email">
-      <p><span>Email</span>:</p>
+    <label for="email"><span>Email</span>:</label>   
       <input type="email" name="email" id="email" placeholder="exemplo@email.com">
-    </label>   
+
+      <input type="submit" value="Concluir">
 </fieldset>
 </form>
