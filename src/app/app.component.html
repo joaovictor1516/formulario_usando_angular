@@ -6,13 +6,33 @@
     
     <label for="idade"><p><span>Idade</span>:</p></label> 
       <input type="number" name="idade" id="idade">
-    
-    <label for="liguagens"><p><span>Quais linguagens você programa</span>:</label>      
-      <textarea name="linguagens" id="linguagens" value="JavaScript, Python, c++"></textarea>
 
-    <label for="email"><span>Email</span>:</label>   
+    <label for="email"><span>Email</span>:</label>
       <input type="email" name="email" id="email" placeholder="exemplo@email.com">
 
-      <input type="submit" value="Concluir">
-</fieldset>
+    <label for="genero"><p><span>Genero</span>:</p></label>
+      <input type="text" name="genero" id="genero">
+
+    <label for="cidade"><p><span>Cidade</span>:</p></label>
+      <input type="text" name="cidade" id="cidade" placeholder="Brasília">
+  </fieldset>
+    
+  <fieldset>
+    <legend>Informações sobre a sua experiência em programação</legend>
+    <label for="liguagens"><p><span>Quais linguagens você programa</span>:</label>
+      <textarea name="linguagens" id="linguagens" placeholder="JavaScript, Python, c++"></textarea>
+
+    <p><span>Já foi para algum evento de programação</span>:</p>
+      <div class="form-check disabled">
+        <input type="radio" name="evento" id="eventoSim" class="form-check-input" value="sim">
+        <label for="eventoSim" class="form-check-label">Sim</label>
+      </div>
+
+      <div class="form-check disable">
+        <input type="radio" name="evento" id="eventoNao" class="form-check-input" value="nao">
+        <label for="eventoNao" class="form-check-label">Não</label>
+      </div>
+
+    <input type="submit" value="Concluir">
+  </fieldset>
 </form>

@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 
@@ -12,6 +13,7 @@ fieldset{
 label{
     margin-left: 10px;
     font-size: medium;
+    display: inline;
 }
 
 input, textarea{
@@ -20,5 +22,5 @@ input, textarea{
 }
 
 textarea{
-    height: 30px
+    height: 30px;
 }
