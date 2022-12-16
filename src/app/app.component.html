@@ -1,26 +1,36 @@
 <form action="">
   <fieldset>
     <legend>Informações do usuário</legend>
-    <label for="nome"><p><span>Nome</span>:</p></label>    
-      <input type="text" name="nome" id="nome">
+    <div class="mb-3">
+      <label for="nome" class="form-label"><p><span>Nome</span>:</p></label>
+        <input type="text" name="nome" id="nome" class="form-control">
+    </div>
     
-    <label for="idade"><p><span>Idade</span>:</p></label> 
-      <input type="number" name="idade" id="idade">
+    <div class="mb-3">
+      <label for="idade" class="form-label"><p><span>Idade</span>:</p></label>
+        <input type="number" name="idade" id="idade" class="form-control">
+    </div>
 
-    <label for="email"><span>Email</span>:</label>
-      <input type="email" name="email" id="email" placeholder="exemplo@email.com">
+    <div class="mb-3">
+      <label for="email" class="form-label"><span>Email</span>:</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="exemplo@email.com">
+    </div>
 
-    <label for="genero"><p><span>Genero</span>:</p></label>
-      <input type="text" name="genero" id="genero">
+    <div>
+      <label for="genero" class="form-label"><p><span>Genero</span>:</p></label>
+        <input type="text" name="genero" id="genero" class="form-control">
+    </div>
 
-    <label for="cidade"><p><span>Cidade</span>:</p></label>
-      <input type="text" name="cidade" id="cidade" placeholder="Brasília">
+    <div>
+      <label for="cidade" class="form-label"><p><span>Cidade</span>:</p></label>
+        <input type="text" name="cidade" id="cidade" class="form-control" placeholder="Brasília">
+    </div>
   </fieldset>
     
   <fieldset>
     <legend>Informações sobre a sua experiência em programação</legend>
-    <label for="liguagens"><p><span>Quais linguagens você programa</span>:</label>
-      <textarea name="linguagens" id="linguagens" placeholder="JavaScript, Python, c++"></textarea>
+    <label for="liguagens" class="form-label"><p><span>Quais linguagens você programa</span>:</label>
+      <textarea name="linguagens" id="linguagens" class="form-text" placeholder="JavaScript, Python, c++"></textarea>
 
     <p><span>Já foi para algum evento de programação</span>:</p>
       <div class="form-check disabled">
@@ -33,6 +43,6 @@
         <label for="eventoNao" class="form-check-label">Não</label>
       </div>
 
-    <input type="submit" value="Concluir">
+    <input type="submit" value="Concluir" class="btn btn-primary">
   </fieldset>
 </form>
